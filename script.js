@@ -124,7 +124,7 @@ document.getElementById('phone').addEventListener('click', (e) => { printLetterB
     }
 
 
-    var start = document.body.scrollTop
+    var start = document.documentElement.scrollTop
       change = to - start,
       currentTime = 0,
       increment = 20;
