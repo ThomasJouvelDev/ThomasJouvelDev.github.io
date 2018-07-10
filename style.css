@@ -36,6 +36,17 @@ a:hover {
   color: #857168;
 }
 
+.padding {
+  padding-left: 85px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.flag {
+  height: 25px;
+}
 
 .flex {
   display: flex;
@@ -46,6 +57,10 @@ a:hover {
 @media (max-width: 770px) {
   .flex {
     flex-direction: column;
+  }
+
+  .padding {
+    padding-left: 0px !important;
   }
 
   .flexbox {
